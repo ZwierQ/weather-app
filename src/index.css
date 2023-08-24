@@ -88,6 +88,7 @@ h2 {
 
 .tabs__button {
   font-size: 2rem;
+  line-height: 2.8rem;
   color: #d6d6d6;
   padding: 25px;
   border: none;
@@ -112,19 +113,20 @@ h2 {
 }
 
 .forecast {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   gap: 35px;
-  padding-bottom: 25px;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 35px;
 }
 
 .card {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: fit-content;
   padding: 45px;
   border-radius: 15px;
   font-size: 1.2rem;
@@ -144,7 +146,6 @@ h2 {
 
 .card__info {
   display: flex;
-  gap: 25px;
   align-items: center;
   white-space: nowrap;
   justify-content: space-between;

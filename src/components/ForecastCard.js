@@ -13,13 +13,13 @@ const ForecastCard = (data) => {
       <img src=${condition.icon}>
     </div>
     <div class="card__info">
-      <div class="card__info__title">Average Temperatur:</div><div class="card__info__value">${day.avgtemp_c} °C</div> 
+      <div class="card__info__title">Average Temperature:</div><div class="card__info__value">${day.avgtemp_c} °C</div> 
     </div>  
     <div class="card__info">
-      <div class="card__info__title">Maximum Temperatur:</div><div class="card__info__value">${day.maxtemp_c} °C</div> 
+      <div class="card__info__title">Maximum Temperature:</div><div class="card__info__value">${day.maxtemp_c} °C</div> 
     </div>  
     <div class="card__info">
-      <div class="card__info__title">Minimum Temperatur:</div><div class="card__info__value">${day.mintemp_c} °C</div> 
+      <div class="card__info__title">Minimum Temperature:</div><div class="card__info__value">${day.mintemp_c} °C</div> 
     </div>  
     <div class="card__info">
       <div class="card__info__title">Average Visibility:</div><div class="card__info__value">${day.avgvis_km} km</div> 
