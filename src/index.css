@@ -1,8 +1,12 @@
 body {
   font-family: sans-serif;
+  background-color: #1d1d1d;
+  color: #d6d6d6;
 }
 
-h1 {
+body,
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
@@ -10,35 +14,156 @@ h1 {
 #content {
   display: flex;
   flex-direction: column;
+  gap: 35px;
   align-items: center;
 }
 
-.search-bar {
-  height: 100px;
+.heading {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #303030;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
   align-items: center;
   justify-content: center;
+  padding: 25px;
+}
+
+.logo__icon {
+  width: 40px;
+  height: auto;
+}
+
+.logo__title {
+  font-size: 2rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.search-form__input {
+  border-radius: 8px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  min-width: 200px;
+}
+
+.search-form__button {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #1d1d1d;
+  color: #d6d6d6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.search-form__button:active {
+  scale: 1.01;
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tabs__button {
+  font-size: 2rem;
+  color: #d6d6d6;
+  padding: 25px;
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration-line: underline;
+  text-underline-offset: 12px;
+  text-underline-position: below;
+}
+
+.current-weather {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.current-weather__heading {
+  align-self: flex-start;
+  padding-left: 25px;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding-bottom: 25px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
   width: fit-content;
-  padding: 50px;
-  border-radius: 12px;
-  box-shadow: 5px 7px 22px -1px rgba(66, 68, 90, 1);
+  padding: 45px;
+  border-radius: 15px;
   font-size: 1.2rem;
+  background-color: #303030;
+}
+
+.card__heading {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #ffa600;
+}
+
+.card__astro {
+  padding: 25px 0 5px 0;
+  color: #ffa600;
 }
 
 .card__info {
   display: flex;
+  gap: 25px;
   align-items: center;
   white-space: nowrap;
   justify-content: space-between;
-  gap: 35px;
 }
 
 .card__info__title {
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.card__info__condition {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #9b9b9a;
+}
+
+.--active {
+  color: #ffa600;
+}
+
+.--hidden {
+  display: none;
 }

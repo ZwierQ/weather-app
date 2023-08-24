@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n  font-family: sans-serif;\n}\n\nh1 {\n  margin: 0;\n  padding: 0;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.search-bar {\n  height: 100px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  width: fit-content;\n  padding: 50px;\n  border-radius: 12px;\n  box-shadow: 5px 7px 22px -1px rgba(66, 68, 90, 1);\n  font-size: 1.2rem;\n}\n\n.card__info {\n  display: flex;\n  align-items: center;\n  white-space: nowrap;\n  justify-content: space-between;\n  gap: 35px;\n}\n\n.card__info__title {\n  font-weight: 600;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://weather-app/./src/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n  font-family: sans-serif;\n  background-color: #1d1d1d;\n  color: #d6d6d6;\n}\n\nbody,\nh1,\nh2 {\n  margin: 0;\n  padding: 0;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  gap: 35px;\n  align-items: center;\n}\n\n.heading {\n  display: flex;\n  flex-wrap: wrap;\n  width: 100%;\n  align-items: center;\n  justify-content: space-between;\n  background-color: #303030;\n}\n\n.logo {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 15px;\n  align-items: center;\n  justify-content: center;\n  padding: 25px;\n}\n\n.logo__icon {\n  width: 40px;\n  height: auto;\n}\n\n.logo__title {\n  font-size: 2rem;\n  font-weight: 800;\n  white-space: nowrap;\n}\n\n.search-form {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 25px;\n  align-items: center;\n  justify-content: center;\n  padding: 25px;\n}\n\n.search-form__input {\n  border-radius: 8px;\n  padding: 8px;\n  outline: none;\n  border: none;\n  min-width: 200px;\n}\n\n.search-form__button {\n  padding: 10px;\n  border-radius: 8px;\n  background-color: #1d1d1d;\n  color: #d6d6d6;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  white-space: nowrap;\n}\n\n.search-form__button:active {\n  scale: 1.01;\n}\n\n.tabs {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.tabs__button {\n  font-size: 2rem;\n  color: #d6d6d6;\n  padding: 25px;\n  border: none;\n  outline: none;\n  background: none;\n  text-decoration-line: underline;\n  text-underline-offset: 12px;\n  text-underline-position: below;\n}\n\n.current-weather {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding-bottom: 25px;\n}\n\n.current-weather__heading {\n  align-self: flex-start;\n  padding-left: 25px;\n}\n\n.forecast {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  gap: 35px;\n  padding-bottom: 25px;\n}\n\n.card {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  width: fit-content;\n  padding: 45px;\n  border-radius: 15px;\n  font-size: 1.2rem;\n  background-color: #303030;\n}\n\n.card__heading {\n  font-size: 2.3rem;\n  font-weight: 700;\n  color: #ffa600;\n}\n\n.card__astro {\n  padding: 25px 0 5px 0;\n  color: #ffa600;\n}\n\n.card__info {\n  display: flex;\n  gap: 25px;\n  align-items: center;\n  white-space: nowrap;\n  justify-content: space-between;\n}\n\n.card__info__title {\n  font-weight: 700;\n}\n\n.card__info__condition {\n  font-weight: 700;\n  font-size: 1.6rem;\n  color: #9b9b9a;\n}\n\n.--active {\n  color: #ffa600;\n}\n\n.--hidden {\n  display: none;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://weather-app/./src/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,63 +110,63 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/API_KEY.js":
-/*!************************!*\
-  !*** ./src/API_KEY.js ***!
-  \************************/
+/***/ "./src/components/CurrentWeather.js":
+/*!******************************************!*\
+  !*** ./src/components/CurrentWeather.js ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   API_KEY: () => (/* binding */ API_KEY)\n/* harmony export */ });\nconst API_KEY = \"key=fe0400a3dd754ca2846101447232208\";\n\n\n//# sourceURL=webpack://weather-app/./src/API_KEY.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _libs_conentContainer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../libs/conentContainer */ \"./src/libs/conentContainer.js\");\n\n\nconst CurrentWeather = (data) => {\n  if (data === undefined) return;\n\n  const container = document.createElement(\"div\");\n  const card = document.createElement(\"div\");\n  const current = data.current;\n  const location = data.location;\n\n  container.id = \"current-weather\";\n  container.className = \"current-weather\";\n  card.className = \"card\";\n\n  card.innerHTML = `\n    <div class=\"card__heading\">${location.country}, ${location.name}</div>\n    <div class=\"card__info\">\n      <div class=\"card__info__condition\">${current.condition.text}</div>\n      <img src=${current.condition.icon}>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Cloud Cover: </div><div class=\"card__info__value\">${current.cloud}%</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Temperature: </div><div class=\"card__info__value\">${current.temp_c}°C</div> \n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Feels Like: </div><div class=\"card__info__value\">${current.feelslike_c}°C</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Wind Direction: </div><div class=\"card__info__value\">${current.wind_dir}</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Wind Speed: </div><div class=\"card__info__value\">${current.wind_kph} km/h</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Gust: </div><div class=\"card__info__value\">${current.gust_kph} km/h</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Humidity: </div><div class=\"card__info__value\">${current.humidity}%</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Precipation: </div><div class=\"card__info__value\">${current.precip_mm} mm</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">UV Index: </div><div class=\"card__info__value\">${current.uv}</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Visibility: </div><div class=\"card__info__value\">${current.vis_km} km</div>\n    </div>\n  `;\n\n  container.appendChild(card);\n  _libs_conentContainer__WEBPACK_IMPORTED_MODULE_0__.content.appendChild(container);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CurrentWeather);\n\n\n//# sourceURL=webpack://weather-app/./src/components/CurrentWeather.js?");
 
 /***/ }),
 
-/***/ "./src/CurrentWeather.js":
-/*!*******************************!*\
-  !*** ./src/CurrentWeather.js ***!
-  \*******************************/
+/***/ "./src/components/Forecast.js":
+/*!************************************!*\
+  !*** ./src/components/Forecast.js ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst CurrentWeather = (data) => {\n  if (data === undefined) return;\n\n  const container = document.createElement(\"div\");\n  container.id = \"current-weather\";\n  container.className = \"card\";\n\n  const current = data.current;\n  const location = data.location;\n\n  container.innerHTML = `\n    <h1>${location.country}, ${location.name}</h1>\n    <div class=\"card__info\">\n      <div>${current.condition.text}</div>\n      <img src=${current.condition.icon}>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Cloud Cover: </div><div class=\"card__info__value\">${current.cloud}%</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Temperature: </div><div class=\"card__info__value\">${current.temp_c}°C</div> \n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Feels Like: </div><div class=\"card__info__value\">${current.feelslike_c}°C</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Wind Direction: </div><div class=\"card__info__value\">${current.wind_dir}</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Wind Speed: </div><div class=\"card__info__value\">${current.wind_kph} km/h</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Gust: </div><div class=\"card__info__value\">${current.gust_kph} km/h</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Humidity: </div><div class=\"card__info__value\">${current.humidity}%</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Precipation: </div><div class=\"card__info__value\">${current.precip_mm} mm</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">UV Index: </div><div class=\"card__info__value\">${current.uv}</div>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Visibility: </div><div class=\"card__info__value\">${current.vis_km} km</div>\n    </div>\n  `;\n\n  document.getElementById(\"content\").appendChild(container);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CurrentWeather);\n\n\n//# sourceURL=webpack://weather-app/./src/CurrentWeather.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _libs_conentContainer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../libs/conentContainer */ \"./src/libs/conentContainer.js\");\n/* harmony import */ var _ForecastCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ForecastCard */ \"./src/components/ForecastCard.js\");\n\n\n\nconst Forecast = (data) => {\n  const container = document.createElement(\"div\");\n\n  container.id = \"forecast\";\n  container.className = \"forecast --hidden\";\n\n  data.forecast.forecastday.forEach((item) => {\n    container.appendChild((0,_ForecastCard__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(item));\n  });\n\n  _libs_conentContainer__WEBPACK_IMPORTED_MODULE_0__.content.appendChild(container);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Forecast);\n\n\n//# sourceURL=webpack://weather-app/./src/components/Forecast.js?");
 
 /***/ }),
 
-/***/ "./src/EventsController.js":
-/*!*********************************!*\
-  !*** ./src/EventsController.js ***!
-  \*********************************/
+/***/ "./src/components/ForecastCard.js":
+/*!****************************************!*\
+  !*** ./src/components/ForecastCard.js ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _CurrentWeather__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CurrentWeather */ \"./src/CurrentWeather.js\");\n/* harmony import */ var _fetchData__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fetchData */ \"./src/fetchData.js\");\n\n\n\nconst EventsController = () => {\n  const searchForm = document.getElementById(\"search-form\");\n  const location = document.getElementById(\"location\");\n\n  const fetchWeatherFor = (location) => {\n    if (location.length === 0) return;\n\n    (0,_fetchData__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(location).then((data) => (0,_CurrentWeather__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(data));\n  };\n\n  // searchForm.addEventListener(\"submit\", (event) => {\n  //   event.preventDefault();\n  //   fetchWeatherFor(location.value);\n  // });\n  window.addEventListener(\"load\", fetchWeatherFor(\"gdansk\"));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (EventsController);\n\n\n//# sourceURL=webpack://weather-app/./src/EventsController.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst ForecastCard = (data) => {\n  const container = document.createElement(\"div\");\n  container.className = \"card\";\n\n  const day = data.day;\n  const condition = data.day.condition;\n  const astro = data.astro;\n\n  container.innerHTML = `\n    <div class=\"card__heading\">${data.date}</div>\n    <div class=\"card__info\">\n      <div class=\"card__info__condition\">${condition.text}</div>\n      <img src=${condition.icon}>\n    </div>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Average Temperatur:</div><div class=\"card__info__value\">${day.avgtemp_c} °C</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Maximum Temperatur:</div><div class=\"card__info__value\">${day.maxtemp_c} °C</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Minimum Temperatur:</div><div class=\"card__info__value\">${day.mintemp_c} °C</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Average Visibility:</div><div class=\"card__info__value\">${day.avgvis_km} km</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Daily Chance of Rain:</div><div class=\"card__info__value\">${day.daily_chance_of_rain} %</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Daily Chance of Snow:</div><div class=\"card__info__value\">${day.daily_chance_of_snow} %</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Maximum Wind Speed:</div><div class=\"card__info__value\">${day.maxwind_kph} km/h</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">UV Index:</div><div class=\"card__info__value\">${day.uv}</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Total Precipation:</div><div class=\"card__info__value\">${day.totalprecip_mm} mm</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Total Snowfall:</div><div class=\"card__info__value\">${day.totalsnow_cm} m</div> \n    </div>  \n    <h2 class=\"card__astro\">Astronomy Data</h2>\n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Sunrise:</div><div class=\"card__info__value\">${astro.sunrise}</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Sunset:</div><div class=\"card__info__value\">${astro.sunset}</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Moonrise:</div><div class=\"card__info__value\">${astro.moonrise}</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Moonset:</div><div class=\"card__info__value\">${astro.moonset}</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Moon Phase:</div><div class=\"card__info__value\">${astro.moon_phase}</div> \n    </div>  \n    <div class=\"card__info\">\n      <div class=\"card__info__title\">Moon Illumination:</div><div class=\"card__info__value\">${astro.moon_illumination} %</div> \n    </div>  \n  `;\n\n  return container;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForecastCard);\n\n\n//# sourceURL=webpack://weather-app/./src/components/ForecastCard.js?");
 
 /***/ }),
 
-/***/ "./src/SearchBar.js":
-/*!**************************!*\
-  !*** ./src/SearchBar.js ***!
-  \**************************/
+/***/ "./src/components/Heading.js":
+/*!***********************************!*\
+  !*** ./src/components/Heading.js ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst SearchBar = (parentElement) => {\n  const container = document.createElement(\"div\");\n  container.className = \"search-bar\";\n\n  container.innerHTML = `\n    <form id=\"search-form\">\n      <label for=\"city\">City:</label>\n      <input type=\"text\" id=\"location\">\n      <button type=\"submit\">Get Forecast</button>\n    </form>\n  `;\n\n  parentElement.appendChild(container);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SearchBar);\n\n\n//# sourceURL=webpack://weather-app/./src/SearchBar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_moon_alt_to_sunny_outline_loop_transition_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../images/moon-alt-to-sunny-outline-loop-transition.svg */ \"./src/images/moon-alt-to-sunny-outline-loop-transition.svg\");\n/* harmony import */ var _libs_conentContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../libs/conentContainer */ \"./src/libs/conentContainer.js\");\n\n\n\nconst Heading = () => {\n  const container = document.createElement(\"div\");\n  container.className = \"heading\";\n\n  container.innerHTML = `\n    <div class=\"logo\">\n      <img src=${_images_moon_alt_to_sunny_outline_loop_transition_svg__WEBPACK_IMPORTED_MODULE_0__} class=\"logo__icon\">\n      <h1 class=\"logo__title\">Just Forecast</h1>\n    </div>\n    <form id=\"search-form\" class=\"search-form\">\n      <input type=\"text\" id=\"location\" placeholder=\"City\" class=\"search-form__input\">\n      <button type=\"submit\" class=\"search-form__button\">Get Forecast</button>\n    </form>\n  `;\n\n  _libs_conentContainer__WEBPACK_IMPORTED_MODULE_1__.content.appendChild(container);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Heading);\n\n\n//# sourceURL=webpack://weather-app/./src/components/Heading.js?");
 
 /***/ }),
 
-/***/ "./src/UI.js":
-/*!*******************!*\
-  !*** ./src/UI.js ***!
-  \*******************/
+/***/ "./src/components/TabButtons.js":
+/*!**************************************!*\
+  !*** ./src/components/TabButtons.js ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _SearchBar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SearchBar */ \"./src/SearchBar.js\");\n\n\nconst content = document.getElementById(\"content\");\n\nconst UI = () => {\n  (0,_SearchBar__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(content);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UI);\n\n\n//# sourceURL=webpack://weather-app/./src/UI.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _libs_conentContainer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../libs/conentContainer */ \"./src/libs/conentContainer.js\");\n\n\nconst TabButtons = (data) => {\n  const container = document.createElement(\"div\");\n\n  container.className = \"tabs\";\n\n  const location = data.location;\n\n  container.innerHTML = `\n    <button type=\"button\" class=\"tabs__button --active\" id=\"tab-location\">${location.country}, ${location.name}</button>\n    <button type=\"button\" class=\"tabs__button\" id=\"tab-forecast\">3 Day Forecast</button>\n  `;\n\n  _libs_conentContainer__WEBPACK_IMPORTED_MODULE_0__.content.appendChild(container);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TabButtons);\n\n\n//# sourceURL=webpack://weather-app/./src/components/TabButtons.js?");
 
 /***/ }),
 
-/***/ "./src/fetchData.js":
-/*!**************************!*\
-  !*** ./src/fetchData.js ***!
-  \**************************/
+/***/ "./src/components/UI.js":
+/*!******************************!*\
+  !*** ./src/components/UI.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _API_KEY__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./API_KEY */ \"./src/API_KEY.js\");\n\n\nconst baseURL = `http://api.weatherapi.com/v1`;\n\nconst fetchData = async (location) => {\n  try {\n    const response = await fetch(\n      `${baseURL}/forecast.json?${_API_KEY__WEBPACK_IMPORTED_MODULE_0__.API_KEY}&q=${location}&days=3&alerts=yes`,\n      {\n        mode: \"cors\",\n      }\n    );\n    const data = await response.json();\n    return data;\n  } catch (error) {\n    console.log(error);\n  }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fetchData);\n\n\n//# sourceURL=webpack://weather-app/./src/fetchData.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Heading__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Heading */ \"./src/components/Heading.js\");\n\n\nconst UI = () => {\n  (0,_Heading__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UI);\n\n\n//# sourceURL=webpack://weather-app/./src/components/UI.js?");
 
 /***/ }),
 
@@ -176,7 +176,57 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _EventsController__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EventsController */ \"./src/EventsController.js\");\n/* harmony import */ var _UI__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UI */ \"./src/UI.js\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\n\n\n\n(0,_UI__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n(0,_EventsController__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_UI__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/UI */ \"./src/components/UI.js\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _libs_EventsController__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./libs/EventsController */ \"./src/libs/EventsController.js\");\n\n\n\n\n(0,_components_UI__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n(0,_libs_EventsController__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/libs/API_KEY.js":
+/*!*****************************!*\
+  !*** ./src/libs/API_KEY.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   API_KEY: () => (/* binding */ API_KEY)\n/* harmony export */ });\nconst API_KEY = \"key=fe0400a3dd754ca2846101447232208\";\n\n\n//# sourceURL=webpack://weather-app/./src/libs/API_KEY.js?");
+
+/***/ }),
+
+/***/ "./src/libs/EventsController.js":
+/*!**************************************!*\
+  !*** ./src/libs/EventsController.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _components_CurrentWeather__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/CurrentWeather */ \"./src/components/CurrentWeather.js\");\n/* harmony import */ var _components_Forecast__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Forecast */ \"./src/components/Forecast.js\");\n/* harmony import */ var _components_TabButtons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/TabButtons */ \"./src/components/TabButtons.js\");\n/* harmony import */ var _conentContainer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./conentContainer */ \"./src/libs/conentContainer.js\");\n/* harmony import */ var _fetchData__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./fetchData */ \"./src/libs/fetchData.js\");\n\n\n\n\n\n\nconst EventsController = () => {\n  const searchForm = document.getElementById(\"search-form\");\n  const location = document.getElementById(\"location\");\n\n  const fetchWeather = (event) => {\n    event.preventDefault();\n    const currentLocation = location.value;\n\n    if (currentLocation.length === 0) return;\n\n    resetContent();\n\n    (0,_fetchData__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(currentLocation).then((data) => {\n      (0,_components_TabButtons__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(data);\n      (0,_components_CurrentWeather__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(data);\n      (0,_components_Forecast__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(data);\n      location.value = \"\";\n    });\n  };\n\n  const resetContent = () => {\n    while (_conentContainer__WEBPACK_IMPORTED_MODULE_3__.content.childNodes.length > 1) {\n      _conentContainer__WEBPACK_IMPORTED_MODULE_3__.content.removeChild(_conentContainer__WEBPACK_IMPORTED_MODULE_3__.content.lastChild);\n    }\n  };\n\n  const selectTab = (event) => {\n    const tabForecast = document.getElementById(\"tab-forecast\");\n    const tabLocation = document.getElementById(\"tab-location\");\n    const currentWeather = document.getElementById(\"current-weather\");\n    const forecast = document.getElementById(\"forecast\");\n    const target = event.target;\n\n    if (\n      target.classList.contains(\"tabs__button\") &&\n      target.id === \"tab-forecast\"\n    ) {\n      target.classList.add(\"--active\");\n      tabLocation.classList.remove(\"--active\");\n      currentWeather.classList.add(\"--hidden\");\n      forecast.classList.remove(\"--hidden\");\n    } else if (\n      target.classList.contains(\"tabs__button\") &&\n      target.id === \"tab-location\"\n    ) {\n      target.classList.add(\"--active\");\n      tabForecast.classList.remove(\"--active\");\n      forecast.classList.add(\"--hidden\");\n      currentWeather.classList.remove(\"--hidden\");\n    }\n  };\n\n  searchForm.addEventListener(\"submit\", (event) => fetchWeather(event));\n\n  _conentContainer__WEBPACK_IMPORTED_MODULE_3__.content.addEventListener(\"click\", (event) => selectTab(event));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (EventsController);\n\n\n//# sourceURL=webpack://weather-app/./src/libs/EventsController.js?");
+
+/***/ }),
+
+/***/ "./src/libs/conentContainer.js":
+/*!*************************************!*\
+  !*** ./src/libs/conentContainer.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   content: () => (/* binding */ content)\n/* harmony export */ });\nconst content = document.getElementById(\"content\");\n\n\n//# sourceURL=webpack://weather-app/./src/libs/conentContainer.js?");
+
+/***/ }),
+
+/***/ "./src/libs/fetchData.js":
+/*!*******************************!*\
+  !*** ./src/libs/fetchData.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _API_KEY__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./API_KEY */ \"./src/libs/API_KEY.js\");\n\n\nconst baseURL = `http://api.weatherapi.com/v1`;\n\nconst fetchData = async (location) => {\n  try {\n    const response = await fetch(\n      `${baseURL}/forecast.json?${_API_KEY__WEBPACK_IMPORTED_MODULE_0__.API_KEY}&q=${location}&days=3&alerts=yes`,\n      {\n        mode: \"cors\",\n      }\n    );\n    const data = await response.json();\n    return data;\n  } catch (error) {\n    console.log(error);\n  }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fetchData);\n\n\n//# sourceURL=webpack://weather-app/./src/libs/fetchData.js?");
+
+/***/ }),
+
+/***/ "./src/images/moon-alt-to-sunny-outline-loop-transition.svg":
+/*!******************************************************************!*\
+  !*** ./src/images/moon-alt-to-sunny-outline-loop-transition.svg ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3e850be65fae2966eb90.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/moon-alt-to-sunny-outline-loop-transition.svg?");
 
 /***/ })
 
@@ -231,6 +281,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Eve
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -245,6 +307,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Eve
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

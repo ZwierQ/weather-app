@@ -1,17 +1,21 @@
+import { content } from "../libs/conentContainer";
+
 const CurrentWeather = (data) => {
   if (data === undefined) return;
 
   const container = document.createElement("div");
-  container.id = "current-weather";
-  container.className = "card";
-
+  const card = document.createElement("div");
   const current = data.current;
   const location = data.location;
 
-  container.innerHTML = `
-    <h1>${location.country}, ${location.name}</h1>
+  container.id = "current-weather";
+  container.className = "current-weather";
+  card.className = "card";
+
+  card.innerHTML = `
+    <div class="card__heading">${location.country}, ${location.name}</div>
     <div class="card__info">
-      <div>${current.condition.text}</div>
+      <div class="card__info__condition">${current.condition.text}</div>
       <img src=${current.condition.icon}>
     </div>
     <div class="card__info">
@@ -46,7 +50,8 @@ const CurrentWeather = (data) => {
     </div>
   `;
 
-  document.getElementById("content").appendChild(container);
+  container.appendChild(card);
+  content.appendChild(container);
 };
 
 export default CurrentWeather;
