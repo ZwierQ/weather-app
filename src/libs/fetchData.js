@@ -1,6 +1,6 @@
 import { API_KEY } from "./API_KEY";
 
-const baseURL = `http://api.weatherapi.com/v1`;
+const baseURL = `https://api.weatherapi.com/v1`;
 
 const fetchData = async (location) => {
   try {
